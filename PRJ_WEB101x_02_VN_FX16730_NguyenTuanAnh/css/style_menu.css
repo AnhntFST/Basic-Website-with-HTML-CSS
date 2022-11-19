@@ -1,0 +1,96 @@
+/* style body chung */
+* {
+    box-sizing: border-box;
+}
+[class*="col-"] {
+    float: left;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+body {
+    background-image: url(../images/menu-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+}
+/* style menu */
+.menu ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+.menu a {
+    display: block;
+  }
+/* style gallery */
+.desc {
+    padding:2px;
+    text-align: center;
+    color: yellow;
+  }
+.asian img {
+    display: block;
+    transition: all 2s ease;
+}  
+.asian img:hover {
+    transform: scale(2.5);
+}
+
+/* style body inedex.html */
+.index p {
+    text-align: justify;
+    margin-left: 20px;
+    color: blue;
+}
+.index h1 {
+    text-align: left;
+    margin-left: 20px;
+    color: red;
+}
+/* style header vuichoi.html */
+.vuichoi h2 {
+    margin-left: 20px;
+    color: red;
+}
+.vuichoi p {
+    text-align: justify;
+    margin-left: 20px;
+    color: blue;
+    font-size: 18px;
+
+}
+/* style header tour.html */
+.tour h2 {
+    margin-left: 20px;
+    color: red;
+}
+.tour h1 {
+    text-align: center;
+    color: blue;
+}
+.tour p {
+    text-align: justify;
+    margin-left: 20px;
+    color: blue;
+    font-size: 18px;
+}
+/* style header amthuc.html */
+.amthuc h1 {
+    margin-left: 20px;
+    color: red;
+}
+.amthuc p {
+    text-align: justify;
+    margin-left: 20px;
+    color: blue;
+    font-size: 18px;
+}

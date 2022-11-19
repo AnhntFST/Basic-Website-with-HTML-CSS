@@ -1,0 +1,7 @@
+Tạo ra website giới thiệu những danh thắng quê hương mình để giúp thúc đẩy du lịch của địa phương.
+Yêu cầu:
+Liên kết các trang web trong cùng một website (theo đường dẫn tương đối)
+Kiểm tra và gỡ lỗi giao diện trên các trình duyệt khác nhau
+Kỹ thuật cơ bản nhất để hỗ trợ việc SEO cho website
+Đưa được website lên mạng Internet
+Kỹ thuật gắn mã script giúp theo dõi được lưu lượng truy cập trang

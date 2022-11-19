@@ -1,0 +1,24 @@
+.chantrang {
+    position: relative;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.chantrang p a {
+    text-align: justify;
+}
+.foot {
+    margin-top: 30px;
+    padding: 1px;
+    height: 200px;
+    border: 1px solid white;
+    background-color: rgba(183, 189, 185, 0.5);
+    color: green;
+    font-size: 18px;
+}
+.abc {
+    position: absolute;
+    top: 55%;
+    background-color: none;
+    color: red;
+    margin: auto;
+}

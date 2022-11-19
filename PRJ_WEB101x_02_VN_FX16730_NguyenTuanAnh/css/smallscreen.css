@@ -1,0 +1,20 @@
+@media only screen and (max-width: 768px) {
+/* for mobiphone */
+[class*="col-"] {
+    width: 100%;
+}
+.menu ul {
+    background-color: rgb(209, 209, 205);
+  }
+.meu li, a {
+    background-color: azure;
+    color: rgb(109, 53, 240);
+    text-align: center;
+    padding: 5px 8px;
+    text-decoration: none;
+    font-size: 13px;
+  }
+  li a:hover {
+    background-color: rgb(247, 245, 147);
+  }
+}
